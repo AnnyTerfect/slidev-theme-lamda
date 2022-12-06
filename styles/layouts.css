@@ -68,5 +68,6 @@
 }
 
 li {
-  @apply list-disc;
+  /*@apply list-disc;*/
+  list-style-image: url(../public/images/triangle.svg);
 }
