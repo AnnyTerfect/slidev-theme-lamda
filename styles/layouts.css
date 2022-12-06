@@ -1,5 +1,4 @@
-.slidev-layout {
-  
+.slidev-layout {  
   h1 + * {
     @apply my-4;
   }
@@ -66,4 +65,8 @@
   h1 + * {
     @apply text-black;
   }
+}
+
+li {
+  @apply list-disc;
 }

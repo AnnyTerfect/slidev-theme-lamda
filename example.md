@@ -47,7 +47,7 @@ Presented by Qin-Cheng Zheng
 
 <v-clicks>
   <div class="theorem1">
-    Definition of product distribution
+    <ulli>Definition of product distribution</ulli>
     <Theorem type="Definition">
       Let <IE>p</IE> and <IE>f</IE> be a product distribution and a mapping from <IE>\mathcal{X}</IE> to <IE>\mathcal{Y} = \{0, 1\}</IE>, respectively.
       We say a distribution <IE>\textbf{p}</IE> is a product disribution if we have
@@ -58,7 +58,7 @@ Presented by Qin-Cheng Zheng
     </Theorem>
   </div>
   <div class="theorem2">
-    Properties of product distribution
+    <ulli>Properties of product distribution</ulli>
     <Theorem type="Theorem">
       Every product distribution is a good distribution.
     </Theorem>
@@ -77,7 +77,7 @@ layout: section
 
 <div class="grid grid-cols-12">
   <div class="col-span-6">
-    This shows on the left
+    <ulli>This shows on the left</ulli>
     <svg class="mt-3" viewBox="0 0 100 80">
       <path
         v-click
@@ -93,7 +93,7 @@ layout: section
     </svg>
   </div>
   <div class="col-span-6">
-    This shows on the right
+    <ulli>This shows on the right</ulli>
     <svg class="mt-3" viewBox="0 0 100 80">
       <path
         v-click
