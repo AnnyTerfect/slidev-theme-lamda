@@ -42,28 +42,29 @@ Presented by Qin-Cheng Zheng
 </style>
 
 ---
+clicks: 1
+---
 
 # Definition and Theorem
 
-<v-clicks>
-  <div class="theorem1">
-    <ulli>Definition of product distribution</ulli>
-    <Theorem type="Definition">
-      Let <IE>p</IE> and <IE>f</IE> be a product distribution and a mapping from <IE>\mathcal{X}</IE> to <IE>\mathcal{Y} = \{0, 1\}</IE>, respectively.
-      We say a distribution <IE>\textbf{p}</IE> is a product disribution if we have
-      <E>
-        \mathbf{p} = \prod_{i = 1}^{d} \mathbf{p}^{(i)} \ ,
-      </E>
-      where <IE>\mathbf{p}^{(i)}</IE> is the marginal distribution on the <IE>i</IE> dimension.
-    </Theorem>
-  </div>
-  <div class="theorem2">
-    <ulli>Properties of product distribution</ulli>
-    <Theorem type="Theorem">
-      Every product distribution is a good distribution.
-    </Theorem>
-  </div>
-</v-clicks>
+<div v-click class="theorem1">
+  <ulli>Definition of product distribution</ulli>
+  <Theorem type="Definition">
+    Let <IE>p</IE> and <IE>f</IE> be a product distribution and a mapping from <IE>\mathcal{X}</IE> to <IE>\mathcal{Y} = \{0, 1\}</IE>, respectively.
+    We say a distribution <IE>\textbf{p}</IE> is a product disribution if we have
+    <E>
+      \mathbf{p} = \prod_{i = 1}^{d} \mathbf{p}^{(i)} \ ,
+    </E>
+    where <IE>\mathbf{p}^{(i)}</IE> is the marginal distribution on the <IE>i</IE> dimension.
+  </Theorem>
+</div>
+
+<div v-click class="theorem2">
+  <ulli>Properties of product distribution</ulli>
+  <Theorem type="Theorem">
+    Every product distribution is a good distribution.
+  </Theorem>
+</div>
 
 ---
 layout: section
