@@ -51,7 +51,7 @@
 
 .slidev-layout.section {
   h1 {
-    @apply text-6xl font-500 leading-20;
+    @apply text-6xl font-400 leading-20;
   }
 }
 
