@@ -10,7 +10,7 @@ Presented by Qin-Cheng Zheng
 
 <style>
   .slidev-layout.cover h1 {
-    @apply text-6xl;
+    @apply text-6xl font-500;
   }
 </style>
 
@@ -63,6 +63,13 @@ Presented by Qin-Cheng Zheng
     Every product distribution is a good distribution.
   </Theorem>
 </div>
+
+<reference total="3" number="1" authors="B.-C. A and E.-F. D" title="This is a Test Title" source="ICML 19">
+</reference>
+<reference total="3" number="2" authors="B.-C. A and E.-F. D" title="This is a Test Title" source="IJCAI 20">
+</reference>
+<reference total="3" number="3" authors="B.-C. A and E.-F. D" title="This is a Test Title" source="AAAI 21">
+</reference>
 
 <style>
   .slidev-vclick-target {
