@@ -18,7 +18,7 @@ Presented by Qin-Cheng Zheng
 
 # Outline
 
-<v-clicks>
+<div v-click>
 
 - Background
 - Setting and Notations
@@ -27,7 +27,7 @@ Presented by Qin-Cheng Zheng
 - Experiment
 - Summary
 
-</v-clicks>
+</div>
 
 <style>
   .slidev-layout {
@@ -41,8 +41,6 @@ Presented by Qin-Cheng Zheng
   }
 </style>
 
----
-clicks: 1
 ---
 
 # Definition and Theorem
@@ -65,6 +63,15 @@ clicks: 1
     Every product distribution is a good distribution.
   </Theorem>
 </div>
+
+<style>
+  .slidev-vclick-target {
+    transition: all 500ms ease;
+  }
+  .slidev-vclick-hidden {
+    transform: scale(.95);
+  }
+</style>
 
 ---
 layout: section
