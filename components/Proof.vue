@@ -1,3 +1,19 @@
+<script setup>
+	import { defineProps } from 'vue'
+
+	const props = defineProps({
+		type: {
+			type: String,
+			default: "Proof"
+		},
+		class: {
+			type: String,
+			default: ""
+		}
+	})
+</script>
+
+
 <template>
 	<div class="proof p-2" :class="class">
 		<i>{{ type ? type : "Proof" }}</i>.&nbsp;&nbsp;<i><slot></slot></i>
@@ -20,9 +36,3 @@
 	background: #000;
 }
 </style>
-
-<script>
-	export default {
-		props: ['type', 'class']
-	}
-</script>
