@@ -1,5 +1,15 @@
 <script setup>
-    import { defineProps } from 'vue'
+    import { ref, defineProps, computed } from 'vue'
+
+    const svg = ref(null)
+
+    const width = computed(() => {
+        return svg.clientWidth ? svg.clientWidth : 16
+    })
+    const height = computed(() => {
+        return svg.clientHeight ? svg.clientHeight: 9
+    })
+
     const props = defineProps({
         arrowFill: {
             type: String,
@@ -7,21 +17,15 @@
         },
     })
 
-    function click(event) {
-        console.log({
-            clientX: event.clientX,
-            clientY: event.clientY,
-            x: event.clientX - event.target.getBoundingClientRect().left,
-            y: event.clientY - event.target.getBoundingClientRect().top,
-        })
-    }
 </script>
 
 <template>
 	<svg
+        ref="svg"
         class="absolute top-0 left-0 w-1/1 h-1/1"
-        viewBox="0 0 1600 900"
+        :viewBox="`0 0 ${width} ${height}`"
         @click="click"
+        @mousemove="mousemove"
     >
         <defs>
             <marker
