@@ -16,7 +16,6 @@
             default: 'none'
         },
     })
-
 </script>
 
 <template>
@@ -24,8 +23,6 @@
         ref="svg"
         class="absolute top-0 left-0 w-1/1 h-1/1"
         :viewBox="`0 0 ${width} ${height}`"
-        @click="click"
-        @mousemove="mousemove"
     >
         <defs>
             <marker
