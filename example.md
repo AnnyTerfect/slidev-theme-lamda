@@ -64,7 +64,7 @@ Presented by Qin-Cheng Zheng
   </Theorem>
 </div>
 
-<my-canvas arrow-fill="black"></my-canvas>
+<my-canvas arrow-fill="black" debug="true"></my-canvas>
 
 <reference :total="3" :number="1" authors="B.-C. A and E.-F. D" title="This is a Test Title" source="ICML 19">
 </reference>
