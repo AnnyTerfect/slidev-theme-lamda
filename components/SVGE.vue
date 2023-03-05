@@ -3,10 +3,10 @@
 	import { defineProps, computed, useSlots } from 'vue'
 
 	const props = defineProps({
-		fontSize: {
-			type: String,
-			default: '1em'
-		},
+		scale: {
+			type: Number,
+			default: 100
+		}
 	})
 
 	const $slots = useSlots()
@@ -17,7 +17,9 @@
 </script>
 
 <template>
-	<svg v-html="html" :key="html"></svg>
+	<svg>
+		<g :style="`transform: scale(${scale / 100})`" v-html="html" :key="html"></g>
+	</svg>
 </template>
 
 <style>
