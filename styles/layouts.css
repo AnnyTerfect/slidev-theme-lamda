@@ -66,18 +66,3 @@
     @apply text-black;
   }
 }
-
-li {
-  /*@apply list-disc;*/
-  @apply relative list-none;
-  /*list-style-image: url(../public/images/triangle.svg);*/
-}
-
-li:before {
-  content: '';
-  @apply absolute -left-5 h-full;
-  width: 0.7em;
-  background-image: url(../public/images/triangle.svg);
-  background-size: 100% 100%;
-  background-position: center center;
-}
