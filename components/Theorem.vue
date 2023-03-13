@@ -6,10 +6,6 @@
 			type: String,
 			default: ""
 		},
-		class: {
-			type: String,
-			default: ""
-		},
 		name: {
 			type: String,
 			default: ""
