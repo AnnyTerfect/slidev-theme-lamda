@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, defineProps } from 'vue'
+import { ref, computed } from 'vue'
 
 const svg = ref(null)
 const mousePosition = ref({ x: 0, y: 0 })

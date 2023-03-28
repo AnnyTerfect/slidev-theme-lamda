@@ -1,28 +1,26 @@
 <script setup>
-	import { defineProps } from 'vue'
-
-	const props = defineProps({
-		number: {
-			type: Number,
-			default: 0
-		},
-		authors: {
-			type: String,
-			default: ""
-		},
-		title: {
-			type: String,
-			default: ""
-		},
-		source: {
-			type: String,
-			default: ""
-		},
-		total: {
-			type: Number,
-			default: 0
-		}
-	})
+const props = defineProps({
+	number: {
+		type: Number,
+		default: 0
+	},
+	authors: {
+		type: String,
+		default: ""
+	},
+	title: {
+		type: String,
+		default: ""
+	},
+	source: {
+		type: String,
+		default: ""
+	},
+	total: {
+		type: Number,
+		default: 0
+	}
+})
 </script>
 
 <template>

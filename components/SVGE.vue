@@ -1,19 +1,19 @@
 <script setup>
-	import "mathjax-full/es5/tex-svg-full";
-	import { defineProps, computed, useSlots } from 'vue'
+import "mathjax-full/es5/tex-svg-full";
+import { computed, useSlots } from 'vue'
 
-	const props = defineProps({
-		scale: {
-			type: Number,
-			default: 100
-		}
-	})
+const props = defineProps({
+	scale: {
+		type: Number,
+		default: 100
+	}
+})
 
-	const $slots = useSlots()
+const $slots = useSlots()
 
-	const html = computed(() => {
-		return window.MathJax.tex2svg($slots.default ? $slots.default()[0].children : '').innerHTML
-	})
+const html = computed(() => {
+	return window.MathJax.tex2svg($slots.default ? $slots.default()[0].children : '').innerHTML
+})
 </script>
 
 <template>

@@ -1,20 +1,18 @@
 <script setup>
-	import { defineProps } from 'vue'
-
-	const props = defineProps({
-		type: {
-			type: String,
-			default: ""
-		},
-		name: {
-			type: String,
-			default: ""
-		},
-		number: {
-			type: Number,
-			default: 0
-		}
-	})
+const props = defineProps({
+	type: {
+		type: String,
+		default: ""
+	},
+	name: {
+		type: String,
+		default: ""
+	},
+	number: {
+		type: Number,
+		default: 0
+	}
+})
 </script>
 
 

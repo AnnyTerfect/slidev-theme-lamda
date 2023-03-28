@@ -1,27 +1,27 @@
 <script setup>
-    import { ref, defineProps, computed, onMounted } from 'vue'
+import { ref } from 'vue'
 
-    const props = defineProps({
-        arrowFill: {
-            type: String,
-            default: 'black'
-        },
-        debug: {
-            type: Boolean,
-            default: false
-        }
-    })
-
-    const svg = ref(null)
-    const width = ref(1600), height = ref(900)
-
-    // Mouse 
-    const mouse = ref({ x: 0, y: 0 })
-    function mousemove(event) {
-        console.log(event.offsetX, svg.value.clientWidth, width.value)
-        mouse.value.x = event.offsetX / svg.value.clientWidth * width.value
-        mouse.value.y = event.offsetY / svg.value.clientHeight * height.value
+const props = defineProps({
+    arrowFill: {
+        type: String,
+        default: 'black'
+    },
+    debug: {
+        type: Boolean,
+        default: false
     }
+})
+
+const svg = ref(null)
+const width = ref(1600), height = ref(900)
+
+// Mouse 
+const mouse = ref({ x: 0, y: 0 })
+function mousemove(event) {
+    console.log(event.offsetX, svg.value.clientWidth, width.value)
+    mouse.value.x = event.offsetX / svg.value.clientWidth * width.value
+    mouse.value.y = event.offsetY / svg.value.clientHeight * height.value
+}
 </script>
 
 <template>

@@ -1,13 +1,6 @@
 <script setup>
 	import "mathjax-full/es5/tex-svg-full";
-	import { defineProps, computed, useSlots } from 'vue'
-
-	const props = defineProps({
-		fontSize: {
-			type: String,
-			default: '1em'
-		},
-	})
+	import { computed, useSlots } from 'vue'
 
 	const $slots = useSlots()
 
@@ -23,6 +16,6 @@
 </style>
 
 <template>
-	<div class="equation" :style="{ fontSize: fontSize }" v-html="html" :key="html">
+	<div class="equation" v-html="html" :key="html">
 	</div>
 </template>
