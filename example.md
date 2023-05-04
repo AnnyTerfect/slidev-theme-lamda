@@ -89,35 +89,36 @@ layout: section
 # Setting and Notations
 
 ---
+layout: two-cols
+---
 
 # Grid
 
-<div class="grid grid-cols-12">
-  <div class="col-span-6">
-    <ulli>This shows on the left</ulli>
-    <svg class="mt-3" viewBox="0 0 100 80">
-      <animate-path
-        v-click
-        class="!duration-1000 fill-none stroke-black"
-        d="M20 40
-           a20 20 0 0 1 20 -20
-           a20 20 0 0 1 20 20
-           a20 20 0 0 1 -20 20
-           a20 20 0 0 1 -20 -20" />
-    </svg>
-  </div>
-  <div class="col-span-6">
-    <ulli>This shows on the right</ulli>
-    <svg class="mt-3" viewBox="0 0 100 80">
-      <animate-path
-        v-click
-        class="!duration-1000 fill-none stroke-black stroke-cap-round"
-        d="M20 20 h40 v40 h-40 v-40 Z"
-      />
-    </svg>
-  </div>
+::left::
+- This shows on the left
 
-</div>
+<svg class="mt-3" viewBox="0 0 100 80">
+  <animate-path
+    v-click
+    class="!duration-1000 fill-none stroke-black"
+    d="M20 40
+        a20 20 0 0 1 20 -20
+        a20 20 0 0 1 20 20
+        a20 20 0 0 1 -20 20
+        a20 20 0 0 1 -20 -20"
+  />
+</svg>
+
+::right::
+- This shows on the right
+
+<svg class="mt-3" viewBox="0 0 100 80">
+  <animate-path
+    v-click
+    class="!duration-1000 fill-none stroke-black stroke-cap-round"
+    d="M20 20 h40 v40 h-40 v-40 Z"
+  />
+</svg>
 
 ---
 

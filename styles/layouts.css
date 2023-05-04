@@ -55,7 +55,7 @@
   }
 }
 
-.slidev-layout.default {
+.slidev-layout.default, .slidev-layout.two-cols {
   @apply text-2xl;
 
   h1 {
