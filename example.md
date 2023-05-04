@@ -96,48 +96,28 @@ layout: section
   <div class="col-span-6">
     <ulli>This shows on the left</ulli>
     <svg class="mt-3" viewBox="0 0 100 80">
-      <path
+      <animate-path
         v-click
-        class="circle"
+        class="!duration-1000 fill-none stroke-black"
         d="M20 40
            a20 20 0 0 1 20 -20
            a20 20 0 0 1 20 20
            a20 20 0 0 1 -20 20
-           a20 20 0 0 1 -20 -20"
-        fill="none"
-        stroke="black"
-        stroke-dasharray="126" />
+           a20 20 0 0 1 -20 -20" />
     </svg>
   </div>
   <div class="col-span-6">
     <ulli>This shows on the right</ulli>
     <svg class="mt-3" viewBox="0 0 100 80">
-      <path
+      <animate-path
         v-click
-        class="rect"
+        class="!duration-1000 fill-none stroke-black stroke-cap-round"
         d="M20 20 h40 v40 h-40 v-40 Z"
-        fill="none"
-        stroke="black"
-        stroke-dasharray="160"
       />
     </svg>
   </div>
 
 </div>
-
-<style>
-  .slidev-vclick-target {
-    transition: all 500ms ease-out;
-  }
-  .circle.slidev-vclick-hidden {
-    opacity: 1 !important;
-    stroke-dashoffset: 126;
-  }
-  .rect.slidev-vclick-hidden {
-    opacity: 1 !important;
-    stroke-dashoffset: 160;
-  }
-</style>
 
 ---
 
