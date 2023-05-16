@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "slidev example.md --open"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "node": ">=14.0.0",
     "slidev": ">=0.19.2"
@@ -40,7 +40,7 @@
     "prism-theme-vars": "^0.2.2",
     "theme-vitesse": "^0.1.12"
   },
-  "readme": "# @slidev/theme-default\n\n[![NPM version](https://img.shields.io/npm/v/@slidev/theme-default?color=3AB9D4&label=)](https://www.npmjs.com/package/@slidev/theme-default)\n\nThe default theme for [Slidev](https://github.com/slidevjs/slidev).\n\n## Install\n\nAdd the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.\n\n<pre><code>---\ntheme: <b>default</b>\n---</code></pre>\n\nLearn more about [how to use a theme](https://sli.dev/themes/use).\n\n## License\n\nMIT License © 2022",
+  "readme": "# slidev-theme-lamda\n\nMy personal lamda theme for [Slidev](https://github.com/slidevjs/slidev).\n\n## Install\n\nAdd the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.\n\n<pre><code>\n---\ntheme: <b>lamda</b>\n---\n</code></pre>\n\nLearn more about [how to use a theme](https://sli.dev/themes/use).",
   "devDependencies": {
     "sass": "^1.62.1"
   }
