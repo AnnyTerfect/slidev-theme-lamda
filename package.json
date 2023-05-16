@@ -1,14 +1,14 @@
 {
-  "name": "@slidev/theme-default",
+  "name": "slidev-theme-lamda",
   "scripts": {
     "dev": "slidev example.md --open"
   },
-  "version": "0.21.2",
+  "version": "0.0.2",
   "engines": {
     "node": ">=14.0.0",
     "slidev": ">=0.19.2"
   },
-  "description": "Default theme for Slidev",
+  "description": "LAMDA theme for Slidev",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slidevjs/themes"
+    "url": "https://github.com/AnnyTerfect/slidev-theme-lamda"
   },
   "slidev": {
     "colorSchema": "light",
@@ -31,7 +31,7 @@
   },
   "author": "zhengqc <zhengqc@lamda.nju.edu.cn>",
   "homepage": "https://sli.dev",
-  "bugs": "https://github.com/slidevjs/themes/issues",
+  "bugs": "https://github.com/AnnyTerfect/slidev-theme-lamda/issues",
   "dependencies": {
     "@slidev/cli": "0.37.1",
     "@slidev/types": "^0.22.7",
