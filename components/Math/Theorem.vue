@@ -25,25 +25,25 @@ const props = defineProps({
 <style>
 @font-face {
 	font-family: 'Lartin Modern';
-	src: url('../public/fonts/lmroman10-italic.otf') format('opentype');
+	src: url('../../public/fonts/lmroman10-italic.otf') format('opentype');
 	font-style: italic;
 	font-weight: normal;
 }
 @font-face {
 	font-family: 'Lartin Modern';
-	src: url('../public/fonts/lmroman10-regular.otf') format('opentype');
+	src: url('../../public/fonts/lmroman10-regular.otf') format('opentype');
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
 	font-family: 'Lartin Modern';
-	src: url('../public/fonts/lmroman10-bold.otf') format('opentype');
+	src: url('../../public/fonts/lmroman10-bold.otf') format('opentype');
 	font-style: bold;
 	font-weight: bold;
 }
 @font-face {
 	font-family: 'Lartin Modern';
-	src: url('../public/fonts/lmroman10-bolditalic.otf') format('opentype');
+	src: url('../../public/fonts/lmroman10-bolditalic.otf') format('opentype');
 	font-style: italic;
 	font-weight: bold;
 }
