@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "slidev example.md --open"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "node": ">=14.0.0",
     "slidev": ">=0.19.2"
