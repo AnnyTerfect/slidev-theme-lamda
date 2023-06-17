@@ -17,7 +17,7 @@ const props = defineProps({
 
 
 <template>
-	<div class="theorem my-1 p-2 border-1 border-black rounded-md text-lg bg-white" :name="name" :number="number">
+	<div class="theorem my-1 p-2 border-1 border-gray-600 rounded-md text-lg bg-white" :name="name" :number="number">
 		<b>{{ type ? type : "Theorem" }}{{ number ? ` ${number}` : '' }}</b><span>{{ name ? ` (${name})` : '' }}</span><b>.</b><i><slot></slot></i>
 	</div>
 </template>
