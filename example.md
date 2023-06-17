@@ -2,6 +2,7 @@
 theme: ./
 layout: cover
 background: #FFF
+transition: slide-left
 ---
 
 # This is A Test Title
