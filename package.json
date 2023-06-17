@@ -33,7 +33,7 @@
   "homepage": "https://sli.dev",
   "bugs": "https://github.com/AnnyTerfect/slidev-theme-lamda/issues",
   "dependencies": {
-    "@slidev/cli": "0.37.1",
+    "@slidev/cli": "^0.42.4",
     "@slidev/types": "^0.22.7",
     "codemirror-theme-vars": "^0.1.1",
     "mathjax-full": "^3.2.2",
