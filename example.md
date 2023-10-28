@@ -2,6 +2,7 @@
 theme: ./
 layout: cover
 background: #FFF
+top-left-img: ./public/images/nju.png
 ---
 
 # This is A Test Title
